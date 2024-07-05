@@ -28,11 +28,11 @@ const handlerSubmit = async () => {
             </div>
             <div class="flex mt-2">
                 <input v-model.trim="query" type="text" class="flex-grow p-2 border border-gray-300 rounded-md text-lg" placeholder="可輸入關鍵字搜尋路名，例如：八德路">
-                <button class="ml-2 p-2 bg-green-500 text-white rounded-md text-lg">搜尋</button>
+                <button class="ml-2 p-2 bg-green-500 text-white rounded-md text-lg hover:bg-green-400 transition delay-100 duration-100 ease-in-out">搜尋</button>
             </div>
         </form>
 
-        <ul class="siteList space-y-2 max-h-80 overflow-y-auto">
+        <ul class="siteList space-y-2 max-h-462 overflow-y-auto">
             <li class="p-4 border border-gray-300 rounded-md bg-white" v-for="filterSite in filterSites">
                 <i class="fas fa-bicycle text-xl"></i>
                 <span class="text-lg font-semibold">{{filterSite.sna.replace("YouBike2.0_", "")}} ({{filterSite.available_rent_bikes}})</span><br>

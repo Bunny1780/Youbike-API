@@ -1,11 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{vue, js}", "./index.html"
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+      maxHeight: {
+        '462': '462px',
+      }
+    },
+  },  
   plugins: [],
 }
 
