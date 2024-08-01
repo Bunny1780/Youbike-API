@@ -1,30 +1,23 @@
-# vue-youbike
+# Youbike-API
+This is a simple project that uses vue to fetch the Youbike API to query site data in real time.
 
-This template should help get you started developing with Vue 3 in Vite.
+API URL：[https://data.gov.tw/dataset/137993](https://data.gov.tw/dataset/137993)
+Project：[https://sweet-marzipan-ad41ee.netlify.app/](https://sweet-marzipan-ad41ee.netlify.app/)
 
-## Recommended IDE Setup
+### 使用技術
+前端：Vue, TailwindCSS
+部署：Netlify
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+## Installation and Running
+-
+1. Clone this repository
+2. Install Youbike-API dependencies:
 ```sh
+cd Youbike-API
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
+3. Compile and Hot-Reload for Development
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# Youbike-API
+4. Open ```http://localhost:5173``` in your browser to view the application.
