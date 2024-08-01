@@ -1,17 +1,17 @@
 # Youbike-API
-This is a simple project that uses vue to fetch the Youbike API to query site data in real time.
+This is a simple project that uses Vue to fetch the Youbike API and query site data in real-time.
 
 API URL：[https://data.gov.tw/dataset/137993](https://data.gov.tw/dataset/137993)
 
-Project：[https://sweet-marzipan-ad41ee.netlify.app/](https://sweet-marzipan-ad41ee.netlify.app/)
+Live Project：[https://sweet-marzipan-ad41ee.netlify.app/](https://sweet-marzipan-ad41ee.netlify.app/)
 
-## 使用技術
-前端：Vue, TailwindCSS
+## Technologies Used
+Frontend: Vue, TailwindCSS
 
-部署：Netlify
+Deployment: Netlify
 
 ## Installation and Running
-1. Clone this repository
+1. Clone this repository:
 2. Install Youbike-API dependencies:
 ```sh
 cd Youbike-API
