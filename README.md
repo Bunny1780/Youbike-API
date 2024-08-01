@@ -17,8 +17,13 @@ Deployment: Netlify
 cd Youbike-API
 npm install
 ```
-3. Compile and Hot-Reload for Development
+3. Create a ```.env``` file in the project root:
+```sh
+# .env
+VITE_APP_API = 
+```
+4. Compile and Hot-Reload for Development
 ```sh
 npm run dev
 ```
-4. Open ```http://localhost:5173``` in your browser to view the application.
+5. Open ```http://localhost:5173``` in your browser to view the application.
