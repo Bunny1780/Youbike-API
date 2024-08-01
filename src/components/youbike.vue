@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from "vue";
-const api = "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json"
+const api = import.meta.env.VITE_APP_API;
 const query = ref('');
 const sites = ref([]);
 const filterSites = ref([])
