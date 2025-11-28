@@ -8,7 +8,7 @@ const filterSites = ref([])
 const handlerSubmit = async () => {
     try {
         if(query.value.trim() !== "") {
-            const response = await fetch(api)
+            const response = await fetch('https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json')
             const posts = await response.json()
             sites.value = posts
             filterSites.value = sites.value.filter(site => site.ar.includes(query.value.trim()))
